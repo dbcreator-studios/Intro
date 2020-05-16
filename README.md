@@ -9,9 +9,9 @@ $ git config --global color.ui true <br />
 $ git config --list <br />
 
 <br />
-Git: starting a repository
-$ git init
-$ git status
+Git: starting a repository <br />
+$ git init <br />
+$ git status <br />
 
 <br />
 Git: staging files <br />
