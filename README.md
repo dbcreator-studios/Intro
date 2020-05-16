@@ -1,39 +1,45 @@
 # Intro
-GitHub Step by Step
+GitHub Step by Step 
 
-Git: configurations 
-$ git config --global user.name "FirstName LastName"
-$ git config --giobal user.email "your-email@email-provider.com"
-$ git config --global color.ui true
-$ git config --list
+<br />
+Git: configurations <br />
+$ git config --global user.name "FirstName LastName" <br />
+$ git config --giobal user.email "your-email@email-provider.com" <br />
+$ git config --global color.ui true <br />
+$ git config --list <br />
 
+<br />
 Git: starting a repository
 $ git init
 $ git status
 
-Git: staging files
-$ git add file-name>
-$ git add file-name> <another-file-name> < yet-another-file-name> 
-$ git add 
-$ git add --all
-$ git add -A
-$ git rm --cached <file-name> 
-$ git reset <file-name> 
+<br />
+Git: staging files <br />
+$ git add file-name> <br />
+$ git add file-name> <another-file-name> < yet-another-file-name> <br />
+$ git add <br />
+$ git add --all <br />
+$ git add -A <br />
+$ git rm --cached <file-name> <br />
+$ git reset <file-name> <br />
 
-Git: committing to a repository 
-$ git commit -m "Add three files" 
-$ git reset --soft HEAD^
-$ git commit --amend -m <enter your message> 
+<br />
+Git: committing to a repository <br />
+$ git commit -m "Add three files" <br />
+$ git reset --soft HEAD^ <br />
+$ git commit --amend -m <enter your message> <br />
 
-Git: pulling and pushing from and to repositories 
-$ git remote add origin <link> 
-$ git push -u origin master 
-$ git clone <clone>
-$ git pull
+<br />
+Git: pulling and pushing from and to repositories <br />
+$ git remote add origin <link> <br />
+$ git push -u origin master <br />
+$ git clone <clone> <br />
+$ git pull <br />
 
-Git: branching 
-$ git branch 
-$ git branch branch-name> 
-$ git checkout <branch-name> 
-$ git merge <branch-name> 
-$ git checkout -b branch-name>
+<br />
+Git: branching <br />
+$ git branch <br />
+$ git branch branch-name> <br />
+$ git checkout <branch-name> <br />
+$ git merge <branch-name> <br />
+$ git checkout -b branch-name> <br />
