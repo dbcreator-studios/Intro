@@ -15,8 +15,8 @@ $ git status <br />
 
 <br />
 Git: staging files <br />
-$ git add file-name> <br />
-$ git add file-name> <another-file-name> < yet-another-file-name> <br />
+$ git add file-name <br />
+$ git add file-name <another-file-name> <yet-another-file-name> <br />
 $ git add <br />
 $ git add --all <br />
 $ git add -A <br />
@@ -26,7 +26,7 @@ $ git reset <file-name> <br />
 <br />
 Git: committing to a repository <br />
 $ git commit -m "Add three files" <br />
-$ git reset --soft HEAD^ <br />
+$ git reset --soft HEAD <br />
 $ git commit --amend -m <enter your message> <br />
 
 <br />
@@ -39,7 +39,7 @@ $ git pull <br />
 <br />
 Git: branching <br />
 $ git branch <br />
-$ git branch branch-name> <br />
+$ git branch <branch-name> <br />
 $ git checkout <branch-name> <br />
 $ git merge <branch-name> <br />
-$ git checkout -b branch-name> <br />
+$ git checkout -b <branch-name> <br />
