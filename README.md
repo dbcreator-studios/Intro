@@ -2,6 +2,57 @@
 GitHub Step by Step 
 
 <br />
+# Git Login <br />
+git config --global user.name "usename" <br />
+git config --global user.email "email" <br />
+
+<br />
+# Git Init
+git init <br />
+
+<br />
+# Git Remote
+git remote add origin "git url" <br />
+
+<br />
+# Git Add
+git add . <br />
+
+<br />
+# Git Status
+git status <br />
+
+<br />
+# Git Graph
+git log --all --decorate --oneline --graph <br />
+
+<br />
+# Git Alias
+alias graph="" <br />
+
+<br />
+# Git Remove From File System & File Repository
+git rm --cached <br />
+
+<br />
+# Git Remove From File Repository
+git rm <br />
+
+<br />
+# Git Remove Untracked Files
+git clean -n <br />
+git clan -f <br />
+
+<br />
+# Git Commit
+git commit -m "message" <br />
+
+<br />
+# Git Push
+git push -u origin <br />
+
+
+<br />
 Git: configurations <br />
 $ git config --global user.name "FirstName LastName" <br />
 $ git config --giobal user.email "your-email@email-provider.com" <br />
