@@ -7,51 +7,51 @@ git config --global user.name "usename" <br />
 git config --global user.email "email" <br />
 
 <br />
-# Git Init
+# Git Init <br />
 git init <br />
 
 <br />
-# Git Remote
+# Git Remote <br />
 git remote add origin "git url" <br />
 
 <br />
-# Git Add
+# Git Add <br />
 git add . <br />
 
 <br />
-# Git Status
+# Git Status <br />
 git status <br />
 
 <br />
-# Git Graph
+# Git Graph <br />
 git log --all --decorate --oneline --graph <br />
 
 <br />
-# Git Alias
+# Git Alias <br />
 alias graph="" <br />
 
 <br />
-# Git Remove From File System & File Repository
+# Git Remove From File System & File Repository <br />
 git rm --cached <br />
 
 <br />
-# Git Remove From File Repository
+# Git Remove From File Repository <br />
 git rm <br />
 
 <br />
-# Git Remove Untracked Files
+# Git Remove Untracked Files <br />
 git clean -n <br />
 git clan -f <br />
 
 <br />
-# Git Commit
+# Git Commit <br />
 git commit -m "message" <br />
 
 <br />
-# Git Push
+# Git Push <br />
 git push -u origin <br />
 
-
+<br />
 <br />
 Git: configurations <br />
 $ git config --global user.name "FirstName LastName" <br />
